@@ -1,0 +1,22 @@
+{
+  "name": "coding-questions-and-solutions",
+  "version": "1.0.0",
+  "description": "A collection of solutions to some coding problems",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha **/*.spec.js",
+    "test-arrays": "mocha arrays/**/*.spec.js",
+    "lint": "eslint ."
+  },
+  "author": "Ninad Vadujkar",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
